@@ -6,7 +6,7 @@ function NavbarC() {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/home">
             <img
               alt=""
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/1200px-Pok%C3%A9_Ball_icon.svg.png"
@@ -17,11 +17,12 @@ function NavbarC() {
             Pokemon Lazy Game
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#">Home</Nav.Link>
-            <Nav.Link href="#">Login</Nav.Link>
-            <Nav.Link href="#">Pokedex</Nav.Link>
-            <Nav.Link href="#">Game</Nav.Link>
-            <Nav.Link href="#">Profile</Nav.Link>
+            <Nav.Link href="/home">Home</Nav.Link>
+            <Nav.Link href="/login">Login</Nav.Link>
+
+            <Nav.Link href="/pokedex">Pokedex</Nav.Link>
+            <Nav.Link href="/game">Game</Nav.Link>
+            <Nav.Link href="/profile">Profile</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
