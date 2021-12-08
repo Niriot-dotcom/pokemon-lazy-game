@@ -1,14 +1,25 @@
+use test_1
+go
+drop database finalProject_LopezMendezPatyYarely
+go
+
 create database finalProject_LopezMendezPatyYarely
 go
 use finalProject_LopezMendezPatyYarely
 go
+
+create table countries (
+	id nvarchar(2) primary key not null,
+	name nvarchar(100) not null,
+)
 
 create table users (
 	id int identity(1, 1) primary key not null,
 	username nvarchar(50) unique not null,
 	password nvarchar(50) not null,
 	country_code nvarchar(2) not null,
-	experience float not null
+	experience float not null,
+	foreign key (country_code) references countries(id),
 )
 
 create table pokemons (
