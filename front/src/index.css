@@ -58,3 +58,30 @@ code {
   background-position: center center;
   background-attachment: fixed;
 }
+/* 
+.Container {
+  border: 1px solid white;
+}
+
+.Row {
+  border: 1px solid white;
+}
+
+.Col {
+  border: 1px solid white;
+  margin-bottom: 15px;
+} */
+
+.App,
+body {
+  background-color: rgb(128, 0, 0);
+  margin-top: 25px;
+}
+
+.album {
+  text-align: center;
+  padding: 15px;
+  background-color: rgb(128, 0, 0);
+  color: white;
+  border-radius: 5px;
+}

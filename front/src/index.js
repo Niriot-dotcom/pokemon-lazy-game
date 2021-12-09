@@ -4,6 +4,10 @@ import "./index.css";
 import App from "./App";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter } from "react-router-dom";
+import { config } from "dotenv";
+
+console.log("config .env file");
+config();
 
 ReactDOM.render(
   <BrowserRouter>

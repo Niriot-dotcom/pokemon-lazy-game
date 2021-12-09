@@ -2,7 +2,7 @@ import { getConnection } from "../database/connection.js";
 
 export const getPokemons = async (req, res) => {
   const pool = await getConnection();
-  const result = await pool.request().query("SELECT * FROM users");
+  const result = await pool.request().query("SELECT * FROM pokemons");
   res.json(result.recordset);
 };
 

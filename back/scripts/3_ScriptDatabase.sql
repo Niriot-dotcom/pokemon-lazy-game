@@ -22,15 +22,15 @@ create table users (
 	foreign key (country_code) references countries(id),
 )
 
-create table pokemons (
-	id int identity(1, 1) primary key not null,
-	name nvarchar(100) not null,
-	img nvarchar(200) not null,
-	height float not null,
-	weight float not null,
-	abilities nvarchar(100) not null,
-	types nvarchar(100) not null,
-)
+--create table pokemons (
+--	id int identity(1, 1) primary key not null,
+--	name nvarchar(100) not null,
+--	img nvarchar(200) not null,
+--	height float not null,
+--	weight float not null,
+--	abilities nvarchar(100) not null,
+--	types nvarchar(100) not null,
+--)
 
 create table games (
 	id int identity(1, 1) primary key not null,
