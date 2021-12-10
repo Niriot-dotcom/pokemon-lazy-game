@@ -20,7 +20,6 @@ function LoginPage() {
                 type="text"
                 class="input-ff form-control-sm"
                 name="ansprechpartner"
-                placeholder="username"
               />
 
               <label class="label-ff col-form-label-sm">Password</label>
@@ -28,7 +27,6 @@ function LoginPage() {
                 type="text"
                 class="input-ff form-control-sm"
                 name="ansprechpartner"
-                placeholder="password"
               />
             </div>
             <div className="d-grid" style={{ marginTop: "20px" }}>

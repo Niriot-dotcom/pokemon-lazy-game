@@ -17,7 +17,7 @@ function NavbarC() {
             Pokemon Lazy Game
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/home">Home</Nav.Link>
+            <Nav.Link href="/dashboard">Dashboard</Nav.Link>
             <Nav.Link href="/login">Login</Nav.Link>
 
             <Nav.Link href="/pokedex">Pokedex</Nav.Link>

@@ -10,7 +10,7 @@ go
 
 create table countries (
 	id nvarchar(2) primary key not null,
-	name nvarchar(100) not null,
+	name nvarchar(100) not null
 )
 
 create table users (
@@ -76,3 +76,15 @@ create table pokemon_type (
 select * from users
 select * from pokemons
 select * from games
+
+insert into countries(id, name)
+values ('MX', 'Mexico')
+
+insert into users(username, password, country_code, experience)
+--values ('niriot', 'admin123', 'MX', 32)
+values ('jose', 'pass123', 'MX', 51)
+
+select * from users where username = 's'
+
+insert into games(user_id, timestamp, status)
+values (7, 11111, 'WON')

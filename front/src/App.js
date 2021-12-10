@@ -1,8 +1,8 @@
 import NavbarC from "./components/Navbar/navbar";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 
 // Pages
-import HomePage from "./components/Home/home";
+import DashboardPage from "./components/Home/home";
 import LoginPage from "./components/Login/login";
 import PokedexPage from "./components/Pokedex/pokedex";
 import GamePage from "./components/Game/game";
@@ -13,7 +13,8 @@ function App() {
     <>
       <NavbarC />
       <Routes>
-        <Route exact={true} path="/home" element={<HomePage />} />
+        <Route exact={true} path="/" element={<Navigate to="/login" />} />
+        <Route exact={true} path="/dashboard" element={<DashboardPage />} />
         <Route exact={true} path="/login" element={<LoginPage />} />
         <Route exact={true} path="/pokedex" element={<PokedexPage />} />
         <Route exact={true} path="/game" element={<GamePage />} />

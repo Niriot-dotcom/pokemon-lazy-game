@@ -58,19 +58,20 @@ code {
   background-position: center center;
   background-attachment: fixed;
 }
-/* 
-.Container {
+
+/* .Container {
   border: 1px solid white;
-}
+} */
 
 .Row {
-  border: 1px solid white;
+  /* border: 1px solid rgb(19, 30, 180); */
+  margin-bottom: 20px;
 }
 
-.Col {
+/* .Col {
   border: 1px solid white;
   margin-bottom: 15px;
-} */
+}  */
 
 .App,
 body {

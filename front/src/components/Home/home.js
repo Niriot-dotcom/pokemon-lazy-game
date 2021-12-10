@@ -1,11 +1,11 @@
 import React from "react";
 
-function HomePage() {
+function DashboardPage() {
   return (
     <>
-      <h1>HomePage</h1>
+      <h1>DashboardPage</h1>
     </>
   );
 }
 
-export default HomePage;
+export default DashboardPage;
