@@ -81,10 +81,4 @@ insert into countries(id, name)
 values ('MX', 'Mexico')
 
 insert into users(username, password, country_code, experience)
---values ('niriot', 'admin123', 'MX', 32)
-values ('jose', 'pass123', 'MX', 51)
-
-select * from users where username = 's'
-
-insert into games(user_id, timestamp, status)
-values (7, 11111, 'WON')
+values ('user', 'pass123', 'MX', 0)

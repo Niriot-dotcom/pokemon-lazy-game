@@ -1,0 +1,24 @@
+{
+  "name": "pokemon-lazy-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "i-back": "cd back && npm install",
+    "i-front": "cd front && npm install",
+    "inst-all": "npm run i-back && npm run i-front",
+    "back": "cd back && npm run dev",
+    "front": "cd front && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niriot/pokemon-lazy-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niriot/pokemon-lazy-game/issues"
+  },
+  "homepage": "https://github.com/niriot/pokemon-lazy-game#readme"
+}
